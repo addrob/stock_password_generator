@@ -1,6 +1,5 @@
 import uvicorn
 from fastapi import FastAPI
-from src.models import User
 from src.routes import app as router
 
 app = FastAPI()
